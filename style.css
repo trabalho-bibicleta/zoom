@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    }
+    
+    header {
+    background-color: rgb(15, 1, 100);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    header h1 {
+    margin: 0;
+    }
+    
+    nav {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+    color: #666;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    section {
+    margin-bottom: 20px;
+    }
+    
+    section h2 {
+    margin-top: 0;
+    }
+    
+    footer {
+    background-color: rgb(15, 1, 100);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+    }
+    
+    footer p {
+    margin: 0;
+    
+    }
+
+    ----------------
+
+    /* Adiciona estilos para as listas */
+  ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  /* Adiciona um estilo de hover para as listas */
+  ul li:hover, ol li:hover {
+    background-color: #f9f9f9;
+    
+  }
+
+
+
+

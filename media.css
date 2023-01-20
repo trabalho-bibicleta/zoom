@@ -1,0 +1,18 @@
+ /* Define estilos para tela larga */
+ @media (min-width: 1200px) {
+  
+ }
+
+ /* Define estilos para tela média */
+ @media (min-width: 992px) and (max-width: 1199px) {
+  
+ }
+
+ /* Define estilos para tela pequena */
+ @media (max-width: 991px) {
+   
+ }
+ video {
+   width: 100%;
+   height: auto;
+ }

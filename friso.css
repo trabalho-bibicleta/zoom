@@ -1,0 +1,32 @@
+.timeline {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+}
+
+.timeline-item {
+    position: relative;
+    flex: 0 0 auto;
+    padding: 20px;
+    min-width: 100%; /* muda de 300px para 100% */
+}
+
+@media (min-width: 768px) { /* media query para telas acima de 768px */
+    .timeline-item {
+        min-width: 300px; /* volta ao valor original para telas maiores */
+    }
+}
+
+.timeline-date {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.timeline-event {
+    font-size: 0.9em;
+    color: #555;
+}
